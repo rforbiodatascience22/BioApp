@@ -1,11 +1,23 @@
 Package: myshinyapp
 Title: An Amazing Shiny App
 Version: 0.0.0.9000
-Authors@R: 
-    person(given = "firstname",
-           family = "lastname",
-           role = c("aut", "cre"),
-           email = "your@email.com")
+Author@R:
+  c(person(given = "Martina",
+           family = "Vojtkova",
+           role = c("aut","cre""), # There must be a "cre", but there can only be one
+           email = "martina6@dtu.dk"), 
+    person(given = "Elena-Madalina",
+           family = "Hizanu",
+           role = "aut",
+           email = "madalina@dtu.dk")),
+    person(given = "Bogumil",
+           family = "Zimon",
+           role = "aut",
+           email = "bogumil@dtu.dk")),
+    person(given = "Stefanos",
+           family = "Rodopoulos",
+           role = "aut",
+           email = "stefanos@dtu.dk"))
 Description: What the package does (one paragraph).
 License: What license is it under?
 Imports: 
