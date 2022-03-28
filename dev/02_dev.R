@@ -23,7 +23,7 @@ attachment::att_amend_desc()
 
 golem::add_module(name = "DNA_Convert", with_test = FALSE) # Name of the module
 golem::add_module(name = "ploting_module", with_test = FALSE) # Name of the module
-golem::add_module(name = "name_of_module2", with_test = TRUE) #
+
 
 ## Add helper functions ----
 ## Creates fct_* and utils_*

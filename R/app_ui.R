@@ -13,14 +13,14 @@ app_ui <- function(request) {
       h1("myshinyapp"),
       tabsetPanel(
         tabPanel(title = "panel1",
-                 "module1"),
+                 mod_DNA_Convert_ui("DNA_Convert")),
         tabPanel(title = "panel2",
                  mod_ploting_module_ui("Plotting_module"),
-                 tabPanel(title = "panel3",
-                          mod_DNA_Convert_server("DNA_Convert_1"))
-      )
+
       )
   )
+)
+      )
 }
 
 #' Add external Resources to the Application
