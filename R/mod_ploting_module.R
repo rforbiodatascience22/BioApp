@@ -27,6 +27,8 @@ mod_ploting_module_ui <- function(id){
     )
   ))
 }
+
+
     
 #' ploting_module Server Functions
 #'
@@ -34,9 +36,18 @@ mod_ploting_module_ui <- function(id){
 mod_ploting_module_server <- function(id){
   moduleServer( id, function(input, output, session){
     ns <- session$ns
- 
+    output$abundance <- renderPlot({
+      if(input$peptide == ""){
+        NULL
+      } else{
+        input$peptide %>%
+          replication::hist_from_seq() +
+          ggplot2::theme(legend.position = "none")
+      }
+    })
   })
 }
+
     
 ## To be copied in the UI
 # mod_ploting_module_ui("ploting_module_1")

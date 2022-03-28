@@ -7,13 +7,15 @@ Description: PKG_DESC.
 License: MIT + file LICENSE
 Imports: 
     config (>= 0.3.1),
+    ggplot2,
     golem (>= 0.3.2),
     magrittr,
+    replication,
     shiny (>= 1.7.1)
 Suggests: 
     spelling,
     testthat (>= 3.0.0)
-Author@R:c(person(given = "Martina", family = "Vojtkova", role =
+Author@R: c(person(given = "Martina", family = "Vojtkova", role =
     c("aut","cre""), # There must be a "cre", but there can only be one
     email = "martina6@dtu.dk"), person(given = "Elena-Madalina", family =
     "Hizanu", role = "aut", email = "madalina@dtu.dk")), person(given =
