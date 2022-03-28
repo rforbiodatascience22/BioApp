@@ -2,8 +2,9 @@
 #'
 #' @param input,output,session Internal parameters for {shiny}.
 #'     DO NOT REMOVE.
+#' @importFrom magrittr %>%
 #' @import shiny
 #' @noRd
 app_server <- function(input, output, session) {
-  # Your application server logic
+  mod_ploting_module_server("ploting_module")
 }

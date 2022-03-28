@@ -1,40 +1,27 @@
 Package: myshinyapp
 Title: PKG_TITLE
 Version: 0.0.0.9000
-<<<<<<< HEAD
-Authors@R: person('Stefanos', 'Rodopoulos', email = 'Stef.rodop94@gmail.com', role = c('cre', 'aut'))
+Authors@R: 
+    person("Stefanos", "Rodopoulos", , "Stef.rodop94@gmail.com", role = c("cre", "aut"))
 Description: PKG_DESC.
 License: MIT + file LICENSE
-=======
-Author@R:
-  c(person(given = "Martina",
-           family = "Vojtkova",
-           role = c("aut","cre""), # There must be a "cre", but there can only be one
-           email = "martina6@dtu.dk"), 
-    person(given = "Elena-Madalina",
-           family = "Hizanu",
-           role = "aut",
-           email = "madalina@dtu.dk")),
-    person(given = "Bogumil",
-           family = "Zimon",
-           role = "aut",
-           email = "bogumil@dtu.dk")),
-    person(given = "Stefanos",
-           family = "Rodopoulos",
-           role = "aut",
-           email = "stefanos@dtu.dk"))
-Description: What the package does (one paragraph).
-License: What license is it under?
->>>>>>> 1c6164701dbbbfff52a59fef6829e42cada957e0
 Imports: 
     config (>= 0.3.1),
     golem (>= 0.3.2),
+    magrittr,
     shiny (>= 1.7.1)
-Encoding: UTF-8
-LazyData: true
-RoxygenNote: 7.1.2
 Suggests: 
     spelling,
     testthat (>= 3.0.0)
+Author@R:c(person(given = "Martina", family = "Vojtkova", role =
+    c("aut","cre""), # There must be a "cre", but there can only be one
+    email = "martina6@dtu.dk"), person(given = "Elena-Madalina", family =
+    "Hizanu", role = "aut", email = "madalina@dtu.dk")), person(given =
+    "Bogumil", family = "Zimon", role = "aut", email = "bogumil@dtu.dk")),
+    person(given = "Stefanos", family = "Rodopoulos", role = "aut", email
+    = "stefanos@dtu.dk"))
 Config/testthat/edition: 3
+Encoding: UTF-8
 Language: en-US
+LazyData: true
+RoxygenNote: 7.1.2
