@@ -15,7 +15,7 @@ app_ui <- function(request) {
         tabPanel(title = "panel1",
                  mod_DNA_Convert_ui("DNA_Convert")),
         tabPanel(title = "panel2",
-                 mod_ploting_module_ui("Plotting_module"),
+                 mod_ploting_module_ui("ploting_module"),
 
       )
   )
