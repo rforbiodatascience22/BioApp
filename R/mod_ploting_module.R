@@ -4,9 +4,9 @@
 #'
 #' @param id,input,output,session Internal parameters for {shiny}.
 #'
-#' @noRd 
+#' @noRd
 #'
-#' @importFrom shiny NS tagList 
+#' @importFrom shiny NS tagList
 mod_ploting_module_ui <- function(id){
   ns <- NS(id)
   tagList(
@@ -29,10 +29,10 @@ mod_ploting_module_ui <- function(id){
 }
 
 
-    
+
 #' ploting_module Server Functions
 #'
-#' @noRd 
+#' @noRd
 mod_ploting_module_server <- function(id){
   moduleServer( id, function(input, output, session){
     ns <- session$ns
@@ -48,9 +48,9 @@ mod_ploting_module_server <- function(id){
   })
 }
 
-    
+
 ## To be copied in the UI
 # mod_ploting_module_ui("ploting_module_1")
-    
+
 ## To be copied in the server
 # mod_ploting_module_server("ploting_module_1")
