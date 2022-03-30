@@ -12,9 +12,9 @@ app_ui <- function(request) {
     fluidPage(
       h1("myshinyapp"),
       tabsetPanel(
-        tabPanel(title = "panel1",
+        tabPanel(title = "DNA Conversion",
                  mod_DNA_Convert_ui("DNA_Convert")),
-        tabPanel(title = "panel2",
+        tabPanel(title = "Abundance plot",
                  mod_ploting_module_ui("ploting_module"),
 
       )
